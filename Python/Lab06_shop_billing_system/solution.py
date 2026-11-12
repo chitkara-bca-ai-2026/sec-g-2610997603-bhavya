@@ -1,0 +1,17 @@
+print("====================================")
+print("   CLOTHING STORE BILLING SYSTEM    ")
+print("====================================")
+name = input("Enter Customer Name:")
+g = input("Enter Garment Name:")
+p = float(input("Enter Price of one garment:"))
+n = int(input("Enter No. of Garments:"))
+t = p*n
+
+print("=====================================")
+print("                BILL                 ")
+print("=====================================")
+print("Customer Name  :" ,name)
+print("Garment Name   :" ,g)
+print(f"Price Per Unit : Rs. {p:.1f}")
+print("Quantity       :",n)
+print(f"Total Amount   : Rs. {t:.1f}")
